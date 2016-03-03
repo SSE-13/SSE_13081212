@@ -1,5 +1,5 @@
 # 自我介绍
-![头像](http://c.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=cbfd20806259252da342150001ab2f0d/3812b31bb051f819941cc1d0d8b44aed2e73e76b.jpg)
+![头像](http://img.pconline.com.cn/images/photoblog/8/1/1/1/8111392/20091/16/1232094533605_mthumb.jpg)
 
 ## 基本资料
 * 姓名：**林璐文**
@@ -22,7 +22,7 @@
 > 淘宝：*[taobao](http://www.taobao.com)*
  
 ## 代码片段
-
+###Javascript
 ```javascript
   function HaveANiceDay(){
     alert("Have A Nice Day !!");
