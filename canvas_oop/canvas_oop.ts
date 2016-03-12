@@ -104,27 +104,29 @@ var context = canvas.getContext("2d");
 
 
 var rect = new Rect();
-rect.width = 200;
-rect.height = 100;
+rect.width = 150;
+rect.height = 80;
+rect.x = 43;
+rect.y = 190;
 rect.color = '#00FF00'
 
 
 var rect2 = new Rect();
-rect2.width = 300;
-rect2.height = 50;
-rect2.x = 200;
-rect2.y = 200;
-rect2.rotation = Math.PI / 8;
+rect2.width = 150;
+rect2.height = 80;
+rect2.x = 240;
+rect2.y = 190;
 rect2.color = '#00FFFF'
 
 var text = new TextField();
-text.x = 10;
+text.x = 50;
+text.y = 60;
 
 var bitmap = new Bitmap();
 bitmap.source = '123.jpg';
 
 //渲染队列
-var renderQueue = [bitmap];
+var renderQueue = [bitmap,text,rect,rect2];
 //资源加载列表
 var imageList = ['123.jpg'];
 
