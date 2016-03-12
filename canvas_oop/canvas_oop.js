@@ -61,9 +61,9 @@ var TextField = (function (_super) {
         _super.apply(this, arguments);
     }
     TextField.prototype.render = function (context) {
-        context.font = "20px Arial";
+        context.font = "60px Kristen ITC";
         context.fillStyle = '#000000';
-        context.fillText('HelloWorld', 0, 20);
+        context.fillText('flappybird', 0, 20);
     };
     return TextField;
 }(DisplayObject));
@@ -109,11 +109,11 @@ rect2.color = '#00FFFF';
 var text = new TextField();
 text.x = 10;
 var bitmap = new Bitmap();
-bitmap.source = 'wander-icon.jpg';
+bitmap.source = '123.jpg';
 //渲染队列
-var renderQueue = [rect, rect2, text, bitmap];
+var renderQueue = [bitmap];
 //资源加载列表
-var imageList = ['wander-icon.jpg'];
+var imageList = ['123.jpg'];
 //先加载资源，加载成功之后执行渲染队列
 loadResource(imageList, function () {
     drawQueue(renderQueue);
