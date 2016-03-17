@@ -125,14 +125,10 @@ text.y = 60;
 var bitmap = new Bitmap();
 bitmap.source = '123.jpg';
 
-var bitmap2 = new Bitmap();
-bitmap2.source = '321.png';
-bitmap2.x = 180;
-bitmap2.y = 130;
 //渲染队列
-var renderQueue = [bitmap,text,rect,rect2,bitmap2];
+var renderQueue = [bitmap,text,rect,rect2];
 //资源加载列表
-var imageList = ['123.jpg','321.png'];
+var imageList = ['123.jpg'];
 
 //先加载资源，加载成功之后执行渲染队列
 loadResource(imageList, function() {
